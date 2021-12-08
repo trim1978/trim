@@ -35,13 +35,14 @@ public class Question implements QuestionDao {
     @Override
     public void out (PrintStream ps){
         ps.println(toString());
-        for (int i=0;i<answers.length;i++){
-            ps.println((i+1) + ". " + answers [i]);
 
-        }
-        if (neewFreeAnswer && answers.length > 0) {
-            ps.println(answers.length + ". " + "Your answer:");
-        }
+//        for (int i=0;i<answers.length;i++){
+//            ps.println((i+1) + ". " + answers [i]);
+//
+//        }
+//        if (neewFreeAnswer && answers.length > 0) {
+//            ps.println(answers.length + ". " + "Your answer:");
+//        }
     }
 
 }

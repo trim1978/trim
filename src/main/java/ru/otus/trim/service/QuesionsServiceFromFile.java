@@ -21,7 +21,7 @@ public class QuesionsServiceFromFile implements QuestionsService {
     public void setFileName(String fileName) {
         this.fileName = fileName;
 // TODO
-        System.out.println("FILENAME " + fileName);
+        //System.out.println("FILENAME " + fileName);
         ResourceLoader resourceLoader = new DefaultResourceLoader();
         Resource resource = resourceLoader.getResource("classpath:"+fileName);
 

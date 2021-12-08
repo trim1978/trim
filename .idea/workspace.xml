@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158bce65-d368-46ec-afdc-dcfca359153d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/trim_idea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework01Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuestionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuesionsServiceFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuestionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/questions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trim_idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuesionsServiceFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuesionsServiceFromFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +42,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +60,7 @@
   <component name="RunManager" selected="Application.Homework01Main">
     <configuration name="Homework01Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.trim.Homework01Main" />
-      <module name="trim_idea" />
+      <module name="trim" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.otus.trim.*" />
@@ -88,7 +73,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.trim.Main" />
-      <module name="trim_idea" />
+      <module name="trim" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.otus.trim.*" />
