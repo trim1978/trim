@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158bce65-d368-46ec-afdc-dcfca359153d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework02Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizDaoSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Asker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/AskerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunServicePrintOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-context-java-based.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework01Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework01Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuesionsServiceFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizServiceFromCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuestionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuestionsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/questions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/questions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
