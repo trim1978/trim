@@ -3,24 +3,45 @@ package ru.otus.trim.service;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
-import ru.otus.trim.dao.QuestionDao;
+import ru.otus.trim.dao.QuizDao;
+import ru.otus.trim.domain.Answer;
 import ru.otus.trim.domain.Question;
+import ru.otus.trim.domain.Quiz;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.List;
 
-public class QuesionsServiceFromFile implements QuestionsService {
-    private final ArrayList<QuestionDao> questions = new ArrayList<QuestionDao> ();
+public class QuizServiceFromCSV implements QuizService {
+    private final ArrayList<QuizDao> questions = new ArrayList<QuizDao> ();
     private String fileName;
-    public QuesionsServiceFromFile(){
+    public QuizServiceFromCSV(String fileName){
+        setFileName (fileName);
+    }
+
+    public static Question parseFromCSV (String line){
+        String [] tokens = line.split(",");
+        String [] ans = new String [tokens.length-1];
+        System.arraycopy(tokens,1, ans, 0, ans.length);
+
+        //this.question = tokens [0];
+        List<Answer> answers = new ArrayList<>();
+        //this.answers = ans;
+        //this.neewFreeAnswer = ;
+        return new Question(tokens [0], answers, line.endsWith(","));
+    }
+
+    private void setFileName(String fileName) {
+        this.fileName = fileName;
 
     }
 
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-// TODO
+    @Override
+    public Quiz readQuiz(){
+        final ArrayList<Question> questions = new ArrayList<Question> ();
+
         //System.out.println("FILENAME " + fileName);
         ResourceLoader resourceLoader = new DefaultResourceLoader();
         Resource resource = resourceLoader.getResource("classpath:"+fileName);
@@ -29,7 +50,7 @@ public class QuesionsServiceFromFile implements QuestionsService {
         {
             String q = "";
             while ((q = is.readLine()) != null){
-                Question question = new Question(q);
+                Question question = parseFromCSV(q);
                 //System.out.println("----------------------------");
                 questions.add(question);
             }
@@ -38,11 +59,6 @@ public class QuesionsServiceFromFile implements QuestionsService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-    }
-
-    @Override
-    public void printQuestions() {
-        questions.stream().forEach(t -> t.out (System.out));
+        return new Quiz(questions);
     }
 }

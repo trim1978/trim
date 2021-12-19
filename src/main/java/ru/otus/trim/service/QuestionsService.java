@@ -1,5 +1,7 @@
 package ru.otus.trim.service;
 
 public interface QuestionsService {
-    public void printQuestions ();
+    void printQuestions ();
+
+    int getQuestionsCount ();
 }

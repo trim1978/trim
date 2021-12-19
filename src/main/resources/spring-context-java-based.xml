@@ -4,19 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="quizService" class="ru.otus.trim.service.QuizServiceFromCSV">
-		<constructor-arg value="questions.csv" name="fileName"/>
+	<bean id="questionsService" class="ru.otus.trim.service.QuizServiceFromCSV">
+		<property value="questions.csv" name="fileName"/>
 	</bean>
-
-	<bean id="quizDao" class="ru.otus.trim.dao.QuizDaoSimple">
-		<constructor-arg ref="quizService" name="service"/>
-
-	</bean>
-
-	<bean id="quizRunService" class="ru.otus.trim.service.QuizRunServicePrintOut">
-		<constructor-arg ref="quizDao" name="dao"/>
-	</bean>
-
 <!--
 	<bean id="questionDao" class="ru.otus.trim.domain.Question">
 		<constructor-arg name=""/>
@@ -28,16 +18,6 @@
 
     <bean id="personService" class="ru.otus.trim.service.PersonServiceImpl">
         <constructor-arg name="dao" ref="personDao"/>
-    </bean>
-
-    <bean id="personDao" class="ru.otus.spring.dao.PersonDaoSimple">
-    </bean>
-
-    <bean id="personService" class="ru.otus.spring.service.PersonServiceImpl">
-        <constructor-arg name="dao" ref="personDao"/>
-    </bean>
-
-
-    -->
+    </bean>-->
 
 </beans>
