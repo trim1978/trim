@@ -1,5 +1,6 @@
 package ru.otus.trim.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Question{
@@ -15,7 +16,9 @@ public class Question{
         this.neewFreeAnswer = neewFreeAnswer;
     }
 
-
+    public List<Answer> getAnswers (){
+        return new ArrayList<Answer> (answers);
+    }
 
 //    public void out (PrintStream ps){
 //        ps.println(question +" ?");

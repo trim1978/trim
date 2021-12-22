@@ -1,8 +1,10 @@
 package ru.otus.trim.dao;
 
+import org.springframework.stereotype.Service;
 import ru.otus.trim.domain.Quiz;
 import ru.otus.trim.service.QuizService;
 
+@Service
 public class QuizDaoSimple implements QuizDao{
 
     public final Quiz quiz;
@@ -16,7 +18,4 @@ public class QuizDaoSimple implements QuizDao{
         return quiz;
     }
 
-//    public void setQuiz (Quiz quiz){
-//        this.quiz = quiz;
-//    }
 }

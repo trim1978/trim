@@ -26,10 +26,11 @@ public class QuizServiceFromCSV implements QuizService {
         String [] ans = new String [tokens.length-1];
         System.arraycopy(tokens,1, ans, 0, ans.length);
 
-        //this.question = tokens [0];
         List<Answer> answers = new ArrayList<>();
-        //this.answers = ans;
-        //this.neewFreeAnswer = ;
+        for (String a : ans){
+            boolean right = a.length() == 0 || a.startsWith("*");
+            answers.add(new Answer(right ? a.substring(1) : a, right));
+        }
         return new Question(tokens [0], answers, line.endsWith(","));
     }
 

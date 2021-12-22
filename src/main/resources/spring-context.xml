@@ -10,10 +10,9 @@
 
 	<bean id="quizDao" class="ru.otus.trim.dao.QuizDaoSimple">
 		<constructor-arg ref="quizService" name="service"/>
-
 	</bean>
 
-	<bean id="quizRunService" class="ru.otus.trim.service.QuizRunServicePrintOut">
+	<bean id="quizOutService" class="ru.otus.trim.service.QuizOutServiceToConsole">
 		<constructor-arg ref="quizDao" name="dao"/>
 	</bean>
 

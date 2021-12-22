@@ -3,21 +3,22 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-	<bean id="questionsService" class="ru.otus.trim.service.QuizServiceFromCSV">
-		<property value="questions.csv" name="fileName"/>
-	</bean>
-<!--
-	<bean id="questionDao" class="ru.otus.trim.domain.Question">
-		<constructor-arg name=""/>
-	</bean>
+	<alias name="questions" alias="quiz1.csv"/>
+	<!--
 	<property name="questions" value="question.csv"/>
-	<import resource="${questions}"/>
-    <bean id="personDao" class="ru.otus.trim.dao.PersonDaoSimple">
-    </bean>
+        <bean id="questionsService" class="ru.otus.trim.service.QuizServiceFromCSV">
+            <property value="questions.csv" name="fileName"/>
+        </bean>
+        <bean id="questionDao" class="ru.otus.trim.domain.Question">
+            <constructor-arg name=""/>
+        </bean>
+        <property name="questions" value="question.csv"/>
+        <import resource="${questions}"/>
+        <bean id="personDao" class="ru.otus.trim.dao.PersonDaoSimple">
+        </bean>
 
-    <bean id="personService" class="ru.otus.trim.service.PersonServiceImpl">
-        <constructor-arg name="dao" ref="personDao"/>
-    </bean>-->
+        <bean id="personService" class="ru.otus.trim.service.PersonServiceImpl">
+            <constructor-arg name="dao" ref="personDao"/>
+        </bean>-->
 
 </beans>

@@ -2,16 +2,16 @@ package ru.otus.trim.service;
 
 import ru.otus.trim.dao.QuizDao;
 
-public class QuizRunServicePrintOut implements QuizRunService{
+public class QuizOutServiceToConsole implements QuizOutService {
 
     final QuizDao quizDao;
 
-    public QuizRunServicePrintOut (QuizDao dao){
+    public QuizOutServiceToConsole(QuizDao dao){
         this.quizDao = dao;
     }
 
     @Override
-    public void runQuiz() {
+    public void outQuiz() {
         quizDao.getQuiz().getQuestions().stream().forEach(t -> System.out.println(t.question));
     }
 }
