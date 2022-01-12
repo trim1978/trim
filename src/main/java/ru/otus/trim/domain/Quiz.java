@@ -13,4 +13,8 @@ public class Quiz {
     public List<Question> getQuestions() {
         return new ArrayList<Question> (questions);
     }
+
+    public QuizAction createQuizAction (){
+        return new QuizAction (this);
+    }
 }

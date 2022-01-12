@@ -16,9 +16,6 @@ public class Homework02Main {
         StudentRequestService studentRequest = context.getBean(StudentRequestService.class);
         Student student = studentRequest.requestStudent();
 
-        //QuizOutService outService = context.getBean(QuizOutService.class);
-        //outService.outQuiz();
-
         QuizRunService runService = context.getBean(QuizRunService.class);
         QuizAction quizAction = runService.runQuiz();
 

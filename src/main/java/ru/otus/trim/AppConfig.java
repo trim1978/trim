@@ -3,10 +3,7 @@ package ru.otus.trim;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
-import ru.otus.trim.dao.QuizActionDao;
-import ru.otus.trim.dao.QuizActionDaoSimple;
 import ru.otus.trim.dao.QuizDao;
 import ru.otus.trim.dao.QuizDaoSimple;
 import ru.otus.trim.service.*;
@@ -25,10 +22,10 @@ public class AppConfig {
         return new QuizDaoSimple(quizService);
     }
 
-    @Bean
-    QuizActionDao createQuizActionDao (){
-        return new QuizActionDaoSimple();
-    }
+    //@Bean
+    //QuizActionDao createQuizActionDao (){
+        //return new QuizActionDaoSimple();
+    //}
 
     @Bean
     QuizOutService createRunService (QuizDao quizDao){
@@ -41,7 +38,7 @@ public class AppConfig {
     }
 
     @Bean
-    QuizRunService createQuizActionService (QuizDao quizDao, QuizActionDao quizActionDao){ return new QuizRunServiceByConsole(quizDao, quizActionDao); }
+    QuizRunService createQuizActionService (QuizDao quizDao){ return new QuizRunServiceByConsole(quizDao); }
 
     @Bean
     QuizCheckService createQuizCheckService (@Value("${quiz.enough}") int checkCriterion){return new QuizCheckServiceFromConfig(checkCriterion);}

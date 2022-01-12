@@ -15,6 +15,7 @@ public class StudentRequestServiceByInput implements StudentRequestService{
         String firstName = scaner.nextLine();
         System.out.print("Enter last name: ");
         String lastName = scaner.nextLine();
+        System.out.print("Welcome " + firstName + " " + lastName);
         return new Student(firstName, lastName);
     }
 }

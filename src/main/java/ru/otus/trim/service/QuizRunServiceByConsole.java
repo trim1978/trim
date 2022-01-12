@@ -1,6 +1,5 @@
 package ru.otus.trim.service;
 
-import ru.otus.trim.dao.QuizActionDao;
 import ru.otus.trim.dao.QuizDao;
 import ru.otus.trim.domain.Answer;
 import ru.otus.trim.domain.Question;
@@ -13,14 +12,14 @@ import java.util.Set;
 
 public class QuizRunServiceByConsole implements QuizRunService {
     final QuizDao quizDao;
-    final QuizActionDao quizActionDao;
-    public QuizRunServiceByConsole(QuizDao dao, QuizActionDao quizActionDao){
+    //final QuizActionDao quizActionDao;
+    public QuizRunServiceByConsole(QuizDao dao){
         this.quizDao = dao;
-        this.quizActionDao = quizActionDao;
+        //this.quizActionDao = quizActionDao;
     }
     @Override
     public QuizAction runQuiz() {
-        QuizAction quizAction = quizActionDao.getQuizAction (quizDao.getQuiz());
+        QuizAction quizAction = quizDao.getQuiz().createQuizAction();
         runQuiz(quizAction);
         System.out.println(quizAction.isComplete() + " " + quizAction.getRightAnsweredQuestionsCount());
         return quizAction;

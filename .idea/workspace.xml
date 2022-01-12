@@ -5,44 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="158bce65-d368-46ec-afdc-dcfca359153d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizActionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizActionDaoSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/QuizAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizCheckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizCheckServiceFromConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizOutService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunServiceByConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/StudentRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/StudentRequestServiceByInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/quiz1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/questions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/questions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/Homework01Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/Homework01Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/Homework02Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/Homework02Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/dao/QuizDaoSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/dao/QuizDaoSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/domain/AskerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/domain/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/domain/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuestionsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuizRunService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuizRunService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuizRunServicePrintOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuizServiceFromCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/service/QuizServiceFromCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/spring-context-java-based.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/spring-context-java-based.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trim/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/domain/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trim/ru/otus/trim/domain/Quiz.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework01Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework01Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework02Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/Homework02Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizActionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizActionDaoSimple.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizDaoSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/dao/QuizDaoSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuestionsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunServicePrintOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizOutServiceToConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizServiceFromCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizServiceFromCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/questions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/questions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-context-java-based.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-context-java-based.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/domain/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunServiceByConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/QuizRunServiceByConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/StudentRequestServiceByInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/trim/service/StudentRequestServiceByInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trim-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
